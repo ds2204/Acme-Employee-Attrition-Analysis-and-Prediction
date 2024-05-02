@@ -1,0 +1,22 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+# Data Exploration
+data = pd.read_csv(r'C:\Users\hp\Desktop\techno\Acme-Employee-Attrition-Analysis-and-Prediction\Attrition Dataset\WA_Fn-UseC_-HR-Employee-Attrition.csv')
+print(data.head())
+print(data.info())
+print(data.describe())
+
+# Data Cleaning
+data = data.dropna()  # Drop rows with missing values
+data = data.drop_duplicates()  # Drop duplicate rows
+
+# Data Encoding
+label_encoder = LabelEncoder()
+data['BusinessTravel_encoded'] = label_encoder.fit_transform(data['BusinessTravel'])
+
+# Data Labeling
+# If labels are missing, you'll need a clear criteria to label the data
+
+# Save the cleaned dataset to a CSV file
+data.to_csv('cleaned_dataset.csv', index=False)
