@@ -19,7 +19,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='Attrition_17150018756530' path='/workbooks' revision='1.1' />
+  <repository-location id='Attrition_17150018756530' path='/workbooks' revision='1.2' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -820,7 +820,7 @@
       <column-instance column='[EducationField]' derivation='None' name='[none:EducationField:nk]' pivot='key' type='nominal' />
       <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ALIABD~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0jll0fs1belm0j18ga7ap08tfckq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/05/2024 02:28:35 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ALIABD~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0jll0fs1belm0j18ga7ap08tfckq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
@@ -836,7 +836,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>43</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Attrition</remote-name>
@@ -851,7 +850,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>BusinessTravel</remote-name>
@@ -866,7 +864,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DailyRate</remote-name>
@@ -880,7 +877,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>791</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Department</remote-name>
@@ -895,7 +891,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DistanceFromHome</remote-name>
@@ -909,7 +904,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Education</remote-name>
@@ -923,7 +917,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>EducationField</remote-name>
@@ -938,7 +931,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>EmployeeCount</remote-name>
@@ -952,7 +944,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>EmployeeNumber</remote-name>
@@ -966,7 +957,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1470</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>EnvironmentSatisfaction</remote-name>
@@ -980,7 +970,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender</remote-name>
@@ -995,7 +984,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>HourlyRate</remote-name>
@@ -1009,7 +997,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>71</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>JobInvolvement</remote-name>
@@ -1023,7 +1010,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>JobLevel</remote-name>
@@ -1037,7 +1023,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>JobRole</remote-name>
@@ -1052,7 +1037,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>JobSatisfaction</remote-name>
@@ -1066,7 +1050,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MaritalStatus</remote-name>
@@ -1081,7 +1064,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MonthlyIncome</remote-name>
@@ -1095,7 +1077,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1186</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MonthlyRate</remote-name>
@@ -1109,7 +1090,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1267</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>NumCompaniesWorked</remote-name>
@@ -1123,7 +1103,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Over18</remote-name>
@@ -1138,7 +1117,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OverTime</remote-name>
@@ -1153,7 +1131,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PercentSalaryHike</remote-name>
@@ -1167,7 +1144,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>15</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PerformanceRating</remote-name>
@@ -1181,7 +1157,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>RelationshipSatisfaction</remote-name>
@@ -1195,7 +1170,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>StandardHours</remote-name>
@@ -1209,7 +1183,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>StockOptionLevel</remote-name>
@@ -1223,7 +1196,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TotalWorkingYears</remote-name>
@@ -1237,7 +1209,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>40</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TrainingTimesLastYear</remote-name>
@@ -1251,7 +1222,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>WorkLifeBalance</remote-name>
@@ -1265,7 +1235,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>YearsAtCompany</remote-name>
@@ -1279,7 +1248,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>33</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>YearsInCurrentRole</remote-name>
@@ -1293,7 +1261,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>19</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>YearsSinceLastPromotion</remote-name>
@@ -1307,7 +1274,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>YearsWithCurrManager</remote-name>
@@ -1321,7 +1287,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Distance</remote-name>
@@ -1336,7 +1301,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Education Group</remote-name>
@@ -1351,7 +1315,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Environmental Satisfications</remote-name>
@@ -1366,7 +1329,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Job Satisfications</remote-name>
@@ -1381,7 +1343,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Relationship Satisfications</remote-name>
@@ -1396,7 +1357,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -3011,7 +2971,7 @@
       <simple-id uuid='{3FF35A67-8DE2-4F4B-ACAF-157EB9A67062}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows pres-mode='true' source-height='30'>
     <window class='worksheet' name='KPI'>
       <cards>
         <edge name='left'>
