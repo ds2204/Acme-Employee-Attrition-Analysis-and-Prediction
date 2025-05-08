@@ -1,0 +1,3231 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Attrition_17150018756530' path='/workbooks' revision='1.2' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Bin Control' datatype='real' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3.0'>
+        <calculation class='tableau' formula='3.0' />
+        <range granularity='3.0' max='15.0' min='3.0' />
+      </column>
+    </datasource>
+    <datasource caption='Data Transformed (acme employee tableau)' inline='true' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='acme employee tableau' name='excel-direct.1tilvrj0ss9gxj11hodi3159hjmi'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Github Repository 2/acme employee tableau.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1tilvrj0ss9gxj11hodi3159hjmi' name='Data Transformed' table='[&apos;Data Transformed$&apos;]' type='table'>
+          <columns gridOrigin='A1:AN1471:no:A1:AN1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Age' ordinal='0' />
+            <column datatype='string' name='Attrition' ordinal='1' />
+            <column datatype='string' name='BusinessTravel' ordinal='2' />
+            <column datatype='integer' name='DailyRate' ordinal='3' />
+            <column datatype='string' name='Department' ordinal='4' />
+            <column datatype='integer' name='DistanceFromHome' ordinal='5' />
+            <column datatype='integer' name='Education' ordinal='6' />
+            <column datatype='string' name='EducationField' ordinal='7' />
+            <column datatype='integer' name='EmployeeCount' ordinal='8' />
+            <column datatype='integer' name='EmployeeNumber' ordinal='9' />
+            <column datatype='integer' name='EnvironmentSatisfaction' ordinal='10' />
+            <column datatype='string' name='Gender' ordinal='11' />
+            <column datatype='integer' name='HourlyRate' ordinal='12' />
+            <column datatype='integer' name='JobInvolvement' ordinal='13' />
+            <column datatype='integer' name='JobLevel' ordinal='14' />
+            <column datatype='string' name='JobRole' ordinal='15' />
+            <column datatype='integer' name='JobSatisfaction' ordinal='16' />
+            <column datatype='string' name='MaritalStatus' ordinal='17' />
+            <column datatype='integer' name='MonthlyIncome' ordinal='18' />
+            <column datatype='integer' name='MonthlyRate' ordinal='19' />
+            <column datatype='integer' name='NumCompaniesWorked' ordinal='20' />
+            <column datatype='string' name='Over18' ordinal='21' />
+            <column datatype='string' name='OverTime' ordinal='22' />
+            <column datatype='integer' name='PercentSalaryHike' ordinal='23' />
+            <column datatype='integer' name='PerformanceRating' ordinal='24' />
+            <column datatype='integer' name='RelationshipSatisfaction' ordinal='25' />
+            <column datatype='integer' name='StandardHours' ordinal='26' />
+            <column datatype='integer' name='StockOptionLevel' ordinal='27' />
+            <column datatype='integer' name='TotalWorkingYears' ordinal='28' />
+            <column datatype='integer' name='TrainingTimesLastYear' ordinal='29' />
+            <column datatype='integer' name='WorkLifeBalance' ordinal='30' />
+            <column datatype='integer' name='YearsAtCompany' ordinal='31' />
+            <column datatype='integer' name='YearsInCurrentRole' ordinal='32' />
+            <column datatype='integer' name='YearsSinceLastPromotion' ordinal='33' />
+            <column datatype='integer' name='YearsWithCurrManager' ordinal='34' />
+            <column datatype='string' name='Distance' ordinal='35' />
+            <column datatype='string' name='Education Group' ordinal='36' />
+            <column datatype='string' name='Environmental Satisfications' ordinal='37' />
+            <column datatype='string' name='Job Satisfications' ordinal='38' />
+            <column datatype='string' name='Relationship Satisfications' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1tilvrj0ss9gxj11hodi3159hjmi' name='Data Transformed' table='[&apos;Data Transformed$&apos;]' type='table'>
+          <columns gridOrigin='A1:AN1471:no:A1:AN1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Age' ordinal='0' />
+            <column datatype='string' name='Attrition' ordinal='1' />
+            <column datatype='string' name='BusinessTravel' ordinal='2' />
+            <column datatype='integer' name='DailyRate' ordinal='3' />
+            <column datatype='string' name='Department' ordinal='4' />
+            <column datatype='integer' name='DistanceFromHome' ordinal='5' />
+            <column datatype='integer' name='Education' ordinal='6' />
+            <column datatype='string' name='EducationField' ordinal='7' />
+            <column datatype='integer' name='EmployeeCount' ordinal='8' />
+            <column datatype='integer' name='EmployeeNumber' ordinal='9' />
+            <column datatype='integer' name='EnvironmentSatisfaction' ordinal='10' />
+            <column datatype='string' name='Gender' ordinal='11' />
+            <column datatype='integer' name='HourlyRate' ordinal='12' />
+            <column datatype='integer' name='JobInvolvement' ordinal='13' />
+            <column datatype='integer' name='JobLevel' ordinal='14' />
+            <column datatype='string' name='JobRole' ordinal='15' />
+            <column datatype='integer' name='JobSatisfaction' ordinal='16' />
+            <column datatype='string' name='MaritalStatus' ordinal='17' />
+            <column datatype='integer' name='MonthlyIncome' ordinal='18' />
+            <column datatype='integer' name='MonthlyRate' ordinal='19' />
+            <column datatype='integer' name='NumCompaniesWorked' ordinal='20' />
+            <column datatype='string' name='Over18' ordinal='21' />
+            <column datatype='string' name='OverTime' ordinal='22' />
+            <column datatype='integer' name='PercentSalaryHike' ordinal='23' />
+            <column datatype='integer' name='PerformanceRating' ordinal='24' />
+            <column datatype='integer' name='RelationshipSatisfaction' ordinal='25' />
+            <column datatype='integer' name='StandardHours' ordinal='26' />
+            <column datatype='integer' name='StockOptionLevel' ordinal='27' />
+            <column datatype='integer' name='TotalWorkingYears' ordinal='28' />
+            <column datatype='integer' name='TrainingTimesLastYear' ordinal='29' />
+            <column datatype='integer' name='WorkLifeBalance' ordinal='30' />
+            <column datatype='integer' name='YearsAtCompany' ordinal='31' />
+            <column datatype='integer' name='YearsInCurrentRole' ordinal='32' />
+            <column datatype='integer' name='YearsSinceLastPromotion' ordinal='33' />
+            <column datatype='integer' name='YearsWithCurrManager' ordinal='34' />
+            <column datatype='string' name='Distance' ordinal='35' />
+            <column datatype='string' name='Education Group' ordinal='36' />
+            <column datatype='string' name='Environmental Satisfications' ordinal='37' />
+            <column datatype='string' name='Job Satisfications' ordinal='38' />
+            <column datatype='string' name='Relationship Satisfications' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AN1471:no:A1:AN1471:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attrition</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Attrition]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Attrition</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BusinessTravel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BusinessTravel]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>BusinessTravel</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DailyRate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DailyRate]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>DailyRate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistanceFromHome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DistanceFromHome]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>DistanceFromHome</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EducationField</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EducationField]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>EducationField</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeCount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmployeeCount]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>EmployeeCount</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmployeeNumber]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>EmployeeNumber</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EnvironmentSatisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EnvironmentSatisfaction]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>EnvironmentSatisfaction</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HourlyRate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HourlyRate]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>HourlyRate</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobInvolvement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JobInvolvement]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>JobInvolvement</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JobLevel]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>JobLevel</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobRole</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[JobRole]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>JobRole</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobSatisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JobSatisfaction]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>JobSatisfaction</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaritalStatus</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MaritalStatus]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>MaritalStatus</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthlyIncome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MonthlyIncome]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>MonthlyIncome</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthlyRate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MonthlyRate]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>MonthlyRate</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumCompaniesWorked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumCompaniesWorked]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>NumCompaniesWorked</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Over18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Over18]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Over18</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OverTime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OverTime]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>OverTime</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PercentSalaryHike</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PercentSalaryHike]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>PercentSalaryHike</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PerformanceRating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PerformanceRating]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>PerformanceRating</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelationshipSatisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RelationshipSatisfaction]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>RelationshipSatisfaction</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandardHours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StandardHours]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>StandardHours</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StockOptionLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StockOptionLevel]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>StockOptionLevel</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalWorkingYears</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalWorkingYears]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>TotalWorkingYears</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrainingTimesLastYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TrainingTimesLastYear]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>TrainingTimesLastYear</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkLifeBalance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WorkLifeBalance]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>WorkLifeBalance</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearsAtCompany</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YearsAtCompany]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>YearsAtCompany</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearsInCurrentRole</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YearsInCurrentRole]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>YearsInCurrentRole</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearsSinceLastPromotion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YearsSinceLastPromotion]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>YearsSinceLastPromotion</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearsWithCurrManager</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YearsWithCurrManager]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>YearsWithCurrManager</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Distance]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Distance</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education Group]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Education Group</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Environmental Satisfications</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Environmental Satisfications]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Environmental Satisfications</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Satisfications</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Satisfications]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Job Satisfications</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship Satisfications</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Relationship Satisfications]</local-name>
+            <parent-name>[Data Transformed]</parent-name>
+            <remote-alias>Relationship Satisfications</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Age (bin) 2' datatype='integer' name='[Age (bin) 2]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='9' />
+      </column>
+      <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size-parameter='[Parameters].[Parameter 1]' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column caption='Business Travel' datatype='string' name='[BusinessTravel]' role='dimension' type='nominal' />
+      <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Attrition Rate' datatype='real' name='[Calculation_1532631263114977282]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1532631263113236481])/SUM([EmployeeCount])' />
+      </column>
+      <column caption='Active Employees' datatype='integer' name='[Calculation_1532631263115386883]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([EmployeeCount])-SUM([Calculation_1532631263113236481])' />
+      </column>
+      <column caption='Age Binning' datatype='string' name='[Calculation_745627228564238336]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &lt; 25 THEN &apos;Under 25&apos;&#13;&#10;ELSEIF [Age] &gt;= 25 AND [Age] &lt;= 34 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Age] &gt;= 35 AND [Age] &lt;= 44 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Age] &gt;= 45 AND [Age] &lt;= 54 THEN &apos;45-54&apos;&#13;&#10;ELSE &apos;Over 55&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Daily Rate' datatype='integer' name='[DailyRate]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+      <column caption='Distance From Home' datatype='integer' name='[DistanceFromHome]' role='measure' type='quantitative' />
+      <column caption='Education Field' datatype='string' name='[EducationField]' role='dimension' type='nominal' />
+      <column caption='Employee Count' datatype='integer' name='[EmployeeCount]' role='measure' type='quantitative' />
+      <column caption='Employee Number' datatype='integer' name='[EmployeeNumber]' role='dimension' type='ordinal' />
+      <column caption='Environment Satisfaction' datatype='integer' name='[EnvironmentSatisfaction]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Hourly Rate' datatype='integer' name='[HourlyRate]' role='measure' type='quantitative' />
+      <column caption='Job Involvement' datatype='integer' name='[JobInvolvement]' role='measure' type='quantitative' />
+      <column caption='Job Level' datatype='integer' name='[JobLevel]' role='measure' type='quantitative' />
+      <column caption='Job Role' datatype='string' name='[JobRole]' role='dimension' type='nominal' />
+      <column caption='Job Satisfaction' datatype='integer' name='[JobSatisfaction]' role='measure' type='quantitative' />
+      <column caption='Marital Status' datatype='string' name='[MaritalStatus]' role='dimension' type='nominal' />
+      <column caption='Monthly Income' datatype='integer' name='[MonthlyIncome]' role='measure' type='quantitative' />
+      <column caption='Monthly Rate' datatype='integer' name='[MonthlyRate]' role='measure' type='quantitative' />
+      <column caption='Num Companies Worked' datatype='integer' name='[NumCompaniesWorked]' role='measure' type='quantitative' />
+      <column caption='Over Time' datatype='string' name='[OverTime]' role='dimension' type='nominal' />
+      <column caption='Percent Salary Hike' datatype='integer' name='[PercentSalaryHike]' role='measure' type='quantitative' />
+      <column caption='Performance Rating' datatype='integer' name='[PerformanceRating]' role='measure' type='quantitative' />
+      <column caption='Relationship Satisfaction' datatype='integer' name='[RelationshipSatisfaction]' role='measure' type='quantitative' />
+      <column caption='Standard Hours' datatype='integer' name='[StandardHours]' role='measure' type='quantitative' />
+      <column caption='Stock Option Level' datatype='integer' name='[StockOptionLevel]' role='measure' type='quantitative' />
+      <column caption='Total Working Years' datatype='integer' name='[TotalWorkingYears]' role='measure' type='quantitative' />
+      <column caption='Training Times Last Year' datatype='integer' name='[TrainingTimesLastYear]' role='dimension' type='quantitative' />
+      <column caption='Work Life Balance' datatype='integer' name='[WorkLifeBalance]' role='measure' type='quantitative' />
+      <column caption='Years At Company' datatype='integer' name='[YearsAtCompany]' role='measure' type='quantitative' />
+      <column caption='Years In Current Role' datatype='integer' name='[YearsInCurrentRole]' role='measure' type='quantitative' />
+      <column caption='Years Since Last Promotion' datatype='integer' name='[YearsSinceLastPromotion]' role='measure' type='quantitative' />
+      <column caption='Years With Curr Manager' datatype='integer' name='[YearsWithCurrManager]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data Transformed' datatype='table' name='[__tableau_internal_object_id__].[Data Transformed_F19ACFFB256F49099B8486451C1F25DF]' role='measure' type='quantitative' />
+      <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+      <column-instance column='[EducationField]' derivation='None' name='[none:EducationField:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ALIABD~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0jll0fs1belm0j18ga7ap08tfckq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Attrition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Attrition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Attrition</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BusinessTravel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BusinessTravel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BusinessTravel</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DailyRate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DailyRate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DailyRate</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>791</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Department</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DistanceFromHome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DistanceFromHome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DistanceFromHome</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EducationField</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EducationField]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EducationField</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeCount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmployeeCount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeCount</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeNumber</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmployeeNumber]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeNumber</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1470</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EnvironmentSatisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EnvironmentSatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EnvironmentSatisfaction</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HourlyRate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HourlyRate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HourlyRate</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JobInvolvement</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[JobInvolvement]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JobInvolvement</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JobLevel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[JobLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JobLevel</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JobRole</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[JobRole]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JobRole</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JobSatisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[JobSatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JobSatisfaction</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MaritalStatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[MaritalStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MaritalStatus</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MonthlyIncome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MonthlyIncome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MonthlyIncome</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1186</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MonthlyRate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MonthlyRate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MonthlyRate</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1267</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NumCompaniesWorked</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NumCompaniesWorked]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NumCompaniesWorked</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Over18</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Over18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Over18</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OverTime</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OverTime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OverTime</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PercentSalaryHike</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PercentSalaryHike]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PercentSalaryHike</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PerformanceRating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PerformanceRating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PerformanceRating</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RelationshipSatisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RelationshipSatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RelationshipSatisfaction</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StandardHours</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[StandardHours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StandardHours</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StockOptionLevel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[StockOptionLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StockOptionLevel</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalWorkingYears</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TotalWorkingYears]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalWorkingYears</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TrainingTimesLastYear</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TrainingTimesLastYear]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TrainingTimesLastYear</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WorkLifeBalance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WorkLifeBalance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WorkLifeBalance</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YearsAtCompany</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[YearsAtCompany]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YearsAtCompany</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YearsInCurrentRole</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[YearsInCurrentRole]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YearsInCurrentRole</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YearsSinceLastPromotion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[YearsSinceLastPromotion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YearsSinceLastPromotion</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YearsWithCurrManager</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[YearsWithCurrManager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YearsWithCurrManager</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Data Transformed</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Distance</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Distance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Distance</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education Group</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Environmental Satisfications</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Environmental Satisfications]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Environmental Satisfications</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Satisfications</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Satisfications]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Satisfications</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relationship Satisfications</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Relationship Satisfications]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relationship Satisfications</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Data Transformed</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Department:nk]' palette='sf_water' type='palette'>
+            <map to='#073e92'>
+              <bucket>&quot;Sales&quot;</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>&quot;Research &amp; Development&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:EducationField:nk]' palette='sf_water' type='palette'>
+            <map to='#051c61'>
+              <bucket>&quot;Life Sciences&quot;</bucket>
+            </map>
+            <map to='#073e92'>
+              <bucket>&quot;Medical&quot;</bucket>
+            </map>
+            <map to='#0e6ece'>
+              <bucket>&quot;Marketing&quot;</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>&quot;Technical Degree&quot;</bucket>
+            </map>
+            <map to='#68ceee'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Age (bin):ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#305d89'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>57</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#396693'>
+              <bucket>60</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>59</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#4776a4'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>56</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>58</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>48</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>52</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>51</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>54</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>53</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#6091bb'>
+              <bucket>47</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>49</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>55</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>43</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>44</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#7babd0'>
+              <bucket>46</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>41</bucket>
+            </map>
+            <map to='#85b5d8'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#89b8da'>
+              <bucket>45</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#91bfdf'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#95c3e1'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#95c3e1'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#9ac6e4'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#9ecae6'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#abd3ec'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#b4d9ef'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>35</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Gender:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Pakistan&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Bin Control' datatype='real' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3.0'>
+          <calculation class='tableau' formula='3.0' />
+          <range granularity='3.0' max='15.0' min='3.0' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data Transformed' id='Data Transformed_F19ACFFB256F49099B8486451C1F25DF'>
+            <properties context=''>
+              <relation connection='excel-direct.1tilvrj0ss9gxj11hodi3159hjmi' name='Data Transformed' table='[&apos;Data Transformed$&apos;]' type='table'>
+                <columns gridOrigin='A1:AN1471:no:A1:AN1471:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Age' ordinal='0' />
+                  <column datatype='string' name='Attrition' ordinal='1' />
+                  <column datatype='string' name='BusinessTravel' ordinal='2' />
+                  <column datatype='integer' name='DailyRate' ordinal='3' />
+                  <column datatype='string' name='Department' ordinal='4' />
+                  <column datatype='integer' name='DistanceFromHome' ordinal='5' />
+                  <column datatype='integer' name='Education' ordinal='6' />
+                  <column datatype='string' name='EducationField' ordinal='7' />
+                  <column datatype='integer' name='EmployeeCount' ordinal='8' />
+                  <column datatype='integer' name='EmployeeNumber' ordinal='9' />
+                  <column datatype='integer' name='EnvironmentSatisfaction' ordinal='10' />
+                  <column datatype='string' name='Gender' ordinal='11' />
+                  <column datatype='integer' name='HourlyRate' ordinal='12' />
+                  <column datatype='integer' name='JobInvolvement' ordinal='13' />
+                  <column datatype='integer' name='JobLevel' ordinal='14' />
+                  <column datatype='string' name='JobRole' ordinal='15' />
+                  <column datatype='integer' name='JobSatisfaction' ordinal='16' />
+                  <column datatype='string' name='MaritalStatus' ordinal='17' />
+                  <column datatype='integer' name='MonthlyIncome' ordinal='18' />
+                  <column datatype='integer' name='MonthlyRate' ordinal='19' />
+                  <column datatype='integer' name='NumCompaniesWorked' ordinal='20' />
+                  <column datatype='string' name='Over18' ordinal='21' />
+                  <column datatype='string' name='OverTime' ordinal='22' />
+                  <column datatype='integer' name='PercentSalaryHike' ordinal='23' />
+                  <column datatype='integer' name='PerformanceRating' ordinal='24' />
+                  <column datatype='integer' name='RelationshipSatisfaction' ordinal='25' />
+                  <column datatype='integer' name='StandardHours' ordinal='26' />
+                  <column datatype='integer' name='StockOptionLevel' ordinal='27' />
+                  <column datatype='integer' name='TotalWorkingYears' ordinal='28' />
+                  <column datatype='integer' name='TrainingTimesLastYear' ordinal='29' />
+                  <column datatype='integer' name='WorkLifeBalance' ordinal='30' />
+                  <column datatype='integer' name='YearsAtCompany' ordinal='31' />
+                  <column datatype='integer' name='YearsInCurrentRole' ordinal='32' />
+                  <column datatype='integer' name='YearsSinceLastPromotion' ordinal='33' />
+                  <column datatype='integer' name='YearsWithCurrManager' ordinal='34' />
+                  <column datatype='string' name='Distance' ordinal='35' />
+                  <column datatype='string' name='Education Group' ordinal='36' />
+                  <column datatype='string' name='Environmental Satisfications' ordinal='37' />
+                  <column datatype='string' name='Job Satisfications' ordinal='38' />
+                  <column datatype='string' name='Relationship Satisfications' ordinal='39' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+      <datasources>
+        <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+        <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+        <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]'>
+        <groupfilter function='level-members' level='[none:Education Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Attrition Rate by Gender for different Age Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Age Binning' datatype='string' name='[Calculation_745627228564238336]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 25 THEN &apos;Under 25&apos;&#13;&#10;ELSEIF [Age] &gt;= 25 AND [Age] &lt;= 34 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Age] &gt;= 35 AND [Age] &lt;= 44 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Age] &gt;= 45 AND [Age] &lt;= 54 THEN &apos;45-54&apos;&#13;&#10;ELSE &apos;Over 55&apos;&#13;&#10;END' />
+            </column>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_745627228587921417]' role='measure' type='quantitative' user:unnamed='Attrition Rate by Gender for different Age Group'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_745627228588195853]' role='measure' type='quantitative' user:unnamed='Attrition Rate by Gender for different Age Group'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_745627228564238336]' derivation='None' name='[none:Calculation_745627228564238336:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[pcto:sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_745627228587921417]' derivation='User' name='[usr:Calculation_745627228587921417:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_745627228588195853]' derivation='User' name='[usr:Calculation_745627228588195853:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Under 25&quot;</bucket>
+              <bucket>&quot;25-34&quot;</bucket>
+              <bucket>&quot;35-44&quot;</bucket>
+              <bucket>&quot;45-54&quot;</bucket>
+              <bucket>&quot;Over 55&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228588195853:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228588195853:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]' value='#ffffff' />
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' field-type='quantitative' max='112' max-size='1' min-size='0' type='centersize' />
+            <encoding attr='size' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]' field-type='quantitative' max='112.0' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1094474792480469' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' />
+              <wedge-size column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</run>
+                <run>&gt;&#10;(&lt;</run>
+                <run>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</run>
+                <run>&gt;)</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.2193922996520996' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228588195853:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#edc948' fontsize='15'>&lt;</run>
+                <run fontcolor='#edc948' fontsize='15'>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</run>
+                <run fontcolor='#edc948' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.82359117269515991' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#2f5597' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk] + [federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228588195853:qk])</rows>
+        <cols>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</cols>
+        <show-full-range>
+          <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[Age (bin) 2]</column>
+        </show-full-range>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Over 55&quot;</value>
+                <value>&quot;Female&quot;</value>
+                <value>3</value>
+                <value>1</value>
+                <value>0.012658227848101266</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='18' y='7' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;35-44&quot;</value>
+                <value>&quot;Female&quot;</value>
+                <value>14</value>
+                <value>1</value>
+                <value>0.059071729957805907</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='31' y='7' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Calculation_745627228564238336:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_745627228587921417:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Under 25&quot;</value>
+                <value>&quot;Male&quot;</value>
+                <value>20</value>
+                <value>1</value>
+                <value>0.084388185654008435</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-7' y='-25' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{8DF7C004-053F-45D0-BA3B-74BA856A7B70}' />
+    </worksheet>
+    <worksheet name='Attrition by Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='height' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' value='33' />
+            <format attr='display' class='1' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+            <format attr='width' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' value='52' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' value='#ffffff' />
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' value='Tableau Medium' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='div-level' scope='cols' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.52674031257629395' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='2.5082871913909912' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]</rows>
+        <cols>([federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk] + [federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk])</cols>
+      </table>
+      <simple-id uuid='{0E7D765C-5EB4-405B-BF58-DE8EDAAAB4F1}' />
+    </worksheet>
+    <worksheet name='Department Wise Attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[pcto:sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='font-size' value='8' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='color' value='#ffffff' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='font-weight' value='normal' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]' />
+              <size column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</run>
+                <run>&gt;&#10;(&lt;</run>
+                <run>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</run>
+                <run>&gt;)</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2193922996520996' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Human Resources&quot;</value>
+                <value>12</value>
+                <value>0.050632911392405063</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='11' y='21' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Research &amp; Development&quot;</value>
+                <value>133</value>
+                <value>0.56118143459915615</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='24' y='-3' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</field>
+                  <field>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[pcto:sum:Calculation_1532631263113236481:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Sales&quot;</value>
+                <value>92</value>
+                <value>0.3881856540084388</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-26' y='3' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{81FB5FA0-C2B0-44F8-9B8D-44E0C3067097}' />
+    </worksheet>
+    <worksheet name='Education Field Wise Attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column caption='Education Field' datatype='string' name='[EducationField]' role='dimension' type='nominal' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[EducationField]' derivation='None' name='[none:EducationField:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:EducationField:nk]' direction='DESC' using='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-family' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:EducationField:nk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:EducationField:nk]</rows>
+        <cols>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]</cols>
+      </table>
+      <simple-id uuid='{78F6DAE4-C6A1-4924-B6E6-56ADA0FB089D}' />
+    </worksheet>
+    <worksheet name='Job Satisfication Rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[EmployeeCount]' role='measure' type='quantitative' />
+            <column caption='Job Role' datatype='string' name='[JobRole]' role='dimension' type='nominal' />
+            <column caption='Job Satisfaction' datatype='integer' name='[JobSatisfaction]' role='measure' type='quantitative' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[JobRole]' derivation='None' name='[none:JobRole:nk]' pivot='key' type='nominal' />
+            <column-instance column='[JobSatisfaction]' derivation='None' name='[none:JobSatisfaction:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[EmployeeCount]' derivation='Sum' name='[sum:EmployeeCount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' value='Tableau Semibold' />
+            <format attr='text-align' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' value='center' />
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobSatisfaction:ok]' value='#ffffff' />
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' value='#000000' />
+            <format attr='color' data-class='subtotal' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobRole:nk]' value='#ffffff' />
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobRole:nk]' value='Tableau Semibold' />
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobSatisfaction:ok]' value='#edc948' />
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobSatisfaction:ok]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobRole:nk]</rows>
+        <cols total='true'>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:JobSatisfaction:ok]</cols>
+      </table>
+      <simple-id uuid='{9D31286F-DADD-41F4-9830-5907683AAE2E}' />
+    </worksheet>
+    <worksheet name='KPI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1532631263113236481]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Attrition]=&apos;Yes&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Attrition Rate' datatype='real' name='[Calculation_1532631263114977282]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1532631263113236481])/SUM([EmployeeCount])' />
+            </column>
+            <column caption='Active Employees' datatype='integer' name='[Calculation_1532631263115386883]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([EmployeeCount])-SUM([Calculation_1532631263113236481])' />
+            </column>
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[EmployeeCount]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1532631263113236481]' derivation='Sum' name='[sum:Calculation_1532631263113236481:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EmployeeCount]' derivation='Sum' name='[sum:EmployeeCount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1532631263114977282]' derivation='User' name='[usr:Calculation_1532631263114977282:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1532631263115386883]' derivation='User' name='[usr:Calculation_1532631263115386883:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263114977282:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263115386883:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[avg:Age:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263114977282:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263115386883:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]</column>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263114977282:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[usr:Calculation_1532631263115386883:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[avg:Age:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]' value='#000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]' value='center' />
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]' value='#edc948' />
+            <format attr='font-size' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]' value='12' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]' value='Education'>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Tableau Semibold'>Education</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[Multiple Values]</run>
+                <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='28'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{BDA2D9FB-1D1E-49CE-9976-83FF92E3DAE5}' />
+    </worksheet>
+    <worksheet name='No of Employee by Age Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#edc948' fontname='Tableau Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Bin Control' datatype='real' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3.0'>
+              <calculation class='tableau' formula='3.0' />
+              <range granularity='3.0' max='15.0' min='3.0' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size-parameter='[Parameters].[Parameter 1]' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[EmployeeCount]' role='measure' type='quantitative' />
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EmployeeCount]' derivation='Sum' name='[sum:EmployeeCount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]' direction='DESC' using='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Age:qk]' />
+          <slices>
+            <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' scope='rows' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' value='Tableau Semibold' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]' value='#ffffff' />
+            <format attr='font-family' field='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]' />
+              <text column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' />
+              <lod column='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Age:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]</rows>
+        <cols>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{D8FA6A77-4F0A-46A5-9DF6-AEBC06D5511F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='HR ANALYTIC DASHBOARD'>
+      <style>
+        <style-rule element='parameter-ctrl'>
+          <format attr='color' value='#ffffff' />
+          <format attr='font-family' value='Tableau Semibold' />
+        </style-rule>
+        <style-rule element='parameter-ctrl-title'>
+          <format attr='color' value='#ffffff' />
+          <format attr='font-family' value='Tableau Semibold' />
+        </style-rule>
+      </style>
+      <size maxheight='600' maxwidth='1080' minheight='600' minwidth='1080' sizing-mode='fixed' />
+      <datasources>
+        <datasource name='Parameters' />
+        <datasource caption='Data Transformed (acme employee tableau)' name='federated.1y2wgvu0z0w3ne153rf8h1ivc17u' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Bin Control' datatype='real' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3.0'>
+          <calculation class='tableau' formula='3.0' />
+          <range granularity='3.0' max='15.0' min='3.0' />
+        </column>
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1y2wgvu0z0w3ne153rf8h1ivc17u'>
+        <column datatype='string' name='[Education Group]' role='dimension' type='nominal' />
+        <column-instance column='[Education Group]' derivation='None' name='[none:Education Group:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97334' id='47' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+            <zone h='97334' id='39' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+              <zone h='97334' id='36' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                <zone h='97334' id='29' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                  <zone h='97334' id='25' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                    <zone h='97334' id='10' type-v2='layout-basic' w='98518' x='741' y='1333'>
+                      <zone h='97334' id='16' is-scaled='1' param='D:/Github Repository 2/HR background.jpg' type-v2='bitmap' w='98518' x='741' y='1333'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='6333' id='42' mode='checkdropdown' name='KPI' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]' type-v2='filter' values='database' w='13981' x='80926' y='3333' />
+        <zone h='13833' id='17' name='KPI' show-title='false' w='83426' x='3056' y='12000' />
+        <zone h='13500' id='23' name='Attrition by Gender' w='12500' x='84722' y='12000' />
+        <zone forceUpdate='true' h='8333' id='26' type-v2='text' w='45463' x='4074' y='1667'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='26'>Acme Employee Attrition</run>
+          </formatted-text>
+        </zone>
+        <zone h='36500' id='27' name='Department Wise Attrition' w='30370' x='3241' y='27333' />
+        <zone h='13000' id='31' name='Department Wise Attrition' pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]' type-v2='color' w='14722' x='3333' y='54167' />
+        <zone h='27333' id='34' name='Education Field Wise Attrition' w='26204' x='3148' y='69000' />
+        <zone h='39333' id='37' name='No of Employee by Age Group' w='32778' x='31481' y='28000' />
+        <zone custom-title='true' h='7500' id='41' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='13611' x='50370' y='28333'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Semibold'>Bin Control</run>
+          </formatted-text>
+        </zone>
+        <zone h='3833' id='48' name='Attrition Rate by Gender for different Age Group' pane-specification-id='2' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' type-v2='color' w='35556' x='67963' y='69833' />
+        <zone h='28000' id='45' name='Attrition Rate by Gender for different Age Group' w='67037' x='30370' y='70000' />
+        <zone h='39333' id='49' name='Job Satisfication Rating' w='31574' x='65185' y='28000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout name='Desktop'>
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='39' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                <zone h='97334' id='36' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                  <zone h='97334' id='29' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                    <zone h='97334' id='25' param='horz' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                      <zone h='97334' id='10' type-v2='layout-basic' w='98518' x='741' y='1333'>
+                        <zone h='97334' id='16' is-scaled='1' param='D:/Github Repository 2/HR background.jpg' type-v2='bitmap' w='98518' x='741' y='1333'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+            <zone h='13833' id='17' name='KPI' show-title='false' w='83426' x='3056' y='12000' />
+            <zone h='13500' id='23' name='Attrition by Gender' w='12500' x='84722' y='12000' />
+            <zone forceUpdate='true' h='8333' id='26' type-v2='text' w='45463' x='4074' y='1667'>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='26'>Acme Employee Attrition</run>
+              </formatted-text>
+            </zone>
+            <zone h='36500' id='27' name='Department Wise Attrition' w='30370' x='3241' y='27333' />
+            <zone h='13000' id='31' name='Department Wise Attrition' pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]' type-v2='color' w='14722' x='3333' y='54167' />
+            <zone h='27333' id='34' name='Education Field Wise Attrition' w='26204' x='3148' y='69000' />
+            <zone custom-title='true' h='7500' id='41' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='13611' x='50741' y='28167'>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Tableau Semibold'>Bin Control</run>
+              </formatted-text>
+            </zone>
+            <zone h='39333' id='37' name='No of Employee by Age Group' w='32778' x='31667' y='28000' />
+          </zones>
+        </devicelayout>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1900' minheight='1900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='55' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='54' param='vert' type-v2='layout-flow' w='98518' x='741' y='1333'>
+                <zone fixed-size='280' h='97334' id='16' is-fixed='true' is-scaled='1' param='D:/Github Repository 2/HR background.jpg' type-v2='bitmap' w='98518' x='741' y='1333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8333' id='26' type-v2='text' w='45463' x='4074' y='1667'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='26'>Acme Employee Attrition</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6333' id='42' mode='checkdropdown' name='KPI' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]' type-v2='filter' values='database' w='13981' x='80926' y='3333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='83' h='13833' id='17' is-fixed='true' name='KPI' show-title='false' w='83426' x='3056' y='12000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='81' h='13500' id='23' is-fixed='true' name='Attrition by Gender' w='12500' x='84722' y='12000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='219' h='36500' id='27' is-fixed='true' name='Department Wise Attrition' w='30370' x='3241' y='27333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13000' id='31' name='Department Wise Attrition' pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]' type-v2='color' w='14722' x='3333' y='54167'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='236' h='39333' id='37' is-fixed='true' name='No of Employee by Age Group' w='32778' x='31481' y='28000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='236' h='39333' id='49' is-fixed='true' name='Job Satisfication Rating' w='31574' x='65185' y='28000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone custom-title='true' h='7500' id='41' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='13611' x='50370' y='28333'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontname='Tableau Semibold'>Bin Control</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='164' h='27333' id='34' is-fixed='true' name='Education Field Wise Attrition' w='26204' x='3148' y='69000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='168' h='28000' id='45' is-fixed='true' name='Attrition Rate by Gender for different Age Group' w='67037' x='30370' y='70000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3833' id='48' name='Attrition Rate by Gender for different Age Group' pane-specification-id='2' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' type-v2='color' w='35556' x='67963' y='69833'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3FF35A67-8DE2-4F4B-ACAF-157EB9A67062}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='30'>
+    <window class='worksheet' name='KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{17F500C2-B851-4F69-A455-FE9B906B27A2}' />
+    </window>
+    <window class='worksheet' name='Attrition by Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9EFE23EB-44AF-46CC-BBD1-67BA9CC99439}' />
+    </window>
+    <window class='worksheet' name='Department Wise Attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:Calculation_1532631263113236481:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Department:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A0F42442-7B4B-43F6-80DE-7A81F0B65067}' />
+    </window>
+    <window class='worksheet' name='No of Employee by Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card pane-specification-id='2' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Age (bin):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{6FF99681-4F27-477E-B1A5-175F0906CC97}' />
+    </window>
+    <window class='worksheet' name='Job Satisfication Rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[sum:EmployeeCount:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{57993B5A-3B9A-430B-B39C-2492155579E3}' />
+    </window>
+    <window class='worksheet' name='Attrition Rate by Gender for different Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Education Group:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DAC797F7-C011-4348-92FE-753A1CBDD44F}' />
+    </window>
+    <window class='worksheet' name='Education Field Wise Attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1y2wgvu0z0w3ne153rf8h1ivc17u].[none:EducationField:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A3C44DDA-3F43-4E96-9C93-3B1C172F1698}' />
+    </window>
+    <window class='dashboard' maximized='true' name='HR ANALYTIC DASHBOARD'>
+      <viewpoints>
+        <viewpoint name='Attrition Rate by Gender for different Age Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Attrition by Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Department Wise Attrition'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Education Field Wise Attrition'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Job Satisfication Rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='2' />
+        </viewpoint>
+        <viewpoint name='No of Employee by Age Group'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='2' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true'>
+        <device name='Large Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{B2DA9DA2-4443-485C-A908-DFD519CC579E}' />
+    </window>
+  </windows>
+</workbook>
